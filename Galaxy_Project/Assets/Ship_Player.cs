@@ -22,11 +22,11 @@ public class Ship_Player : MonoBehaviour {
 			}*/
 			
 			if (Input.GetTouch (0).position.x > (Screen.width/2)) {
-				Debug.Log ("Right");
+				//Debug.Log ("Right");
 				transform.Translate(Vector3.right );
 			}
 			if (Input.GetTouch (0).position.x <= (Screen.width/2)) {
-				Debug.Log ("Left");
+				//Debug.Log ("Left");
 				transform.Translate(Vector3.left);
 
 			}
